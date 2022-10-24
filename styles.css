@@ -16,16 +16,16 @@ body{
 h1,h2,h3, .price{
     font-family: 'Roboto Serif', serif;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.87);
+    color: #ffbd59;
 }
 
-#bloco{
+#menu{
     display: flex;
     flex-direction: column;
     align-items: center;
     width:66.6%;
     height:100vh;
-    margin-top:5%
+    margin-top:10%
 }
 
 #bloco HR{
@@ -35,19 +35,21 @@ h1,h2,h3, .price{
 #imgsDiv{
     height:100vh;
     width:33.3%;
-    height:100vh;
+    margin-top:5%;
 }
 
 
 ul{
     list-style:none;
-    margin-top:5%
+    margin-top:5%;
+    margin-bottom:5%;
 }
 
 ul li{
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    gap:120px
 }
 
 li .detalhes{
@@ -60,8 +62,21 @@ li .detalhes{
     line-height: 19px;
 }
 
+HR{
+    color: #ffbd59;
+}
+
 
 .detalhes p{
     color: rgba(255, 255, 255, 0.6););
+}
+
+#caixa {
+    width: 40%;
+    height:200px;
+    background: #ffbd59;
+    position:absolute;
+    z-index: +1;
+    margin-top: -12%
 }
 
