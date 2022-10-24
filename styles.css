@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height:100vh;
+}
+
+#bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgs{
+    width:33.3%;
+    height:100vh;
+}
