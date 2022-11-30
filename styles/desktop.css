@@ -13,7 +13,7 @@ body{
 }
 
 h1,h2,h3, .price{
-    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Mali', sans-serif;
     text-transform: uppercase;
     color: rgba(251,255,255,255);
 }
@@ -52,7 +52,7 @@ li .detalhes{
 
 .detalhes p{
     color: rgba(255, 255, 255, 0.6));
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Mali', sans-serif;
 }
 
 #caixa {
@@ -99,6 +99,7 @@ li .detalhes{
     }
     p{
         font-size: 14px;
-        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Mali', sans-serif;
+        font-weight: 400
     }
   }
